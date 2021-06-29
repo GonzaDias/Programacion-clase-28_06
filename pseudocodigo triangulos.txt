@@ -1,0 +1,19 @@
+Algoritmo triangulos
+	Escribir "Ingresar lado A del triangulo"
+	Leer lado_a
+	Escribir "Ingresar lado B del triangulo"
+	Leer lado_b
+	Escribir "Ingresar lado C del triangulo"
+	Leer lado_c
+	Si lado_a == lado_b y lado_a == lado_c Entonces
+		Escribir "El triangulo es equilatero"
+	SiNo
+		Si ((lado_a == lado_b y lado_a <> lado_c)) o ((lado_a == lado_c y lado_a <> lado_b)) o ((lado_b == lado_c) y (lado_b <> lado_a))Entonces
+			Escribir "El triangulo es isosceles"
+		SiNo
+			Escribir "El triangulo es escaleno"
+		Fin Si
+	Fin Si
+FinAlgoritmo
+
+
